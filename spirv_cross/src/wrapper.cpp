@@ -1,4 +1,6 @@
-#pragma warning(disable : 4996 4101)
+#pragma GCC diagnostic ignored "-Wunknown-pragmas"
+//#pragma warning(disable : 4996 4101)
+
 #include "vendor/SPIRV-Cross/spirv_cross_util.hpp"
 #include "vendor/SPIRV-Cross/spirv_hlsl.hpp"
 #include "vendor/SPIRV-Cross/spirv_msl.hpp"
